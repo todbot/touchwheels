@@ -26,11 +26,13 @@ def wheel_pos(a,b,c):
     or return None if wheel is not pressed
     """
     # compute raw percentages
-    a_pct= (a.raw_value - a.threshold) / a.threshold
+    a_pct = (a.raw_value - a.threshold) / a.threshold
     b_pct = (b.raw_value - b.threshold) / b.threshold
     c_pct = (c.raw_value - c.threshold) / c.threshold
-    # print( "%2.1f  %2.1f  %2.1f" % (a_pct, b_pct, c_pct))
-    offset = -0.333/2
+    #print( "%+1.2f  %+1.2f  %+1.2f" % (a_pct, b_pct, c_pct), end="\t")
+
+    offset = -0.333/2  # physical design is rotated 1/2 a sector anti-clockwise
+
     pos = None
     # cases when finger is touching two pads
     if a_pct >= 0 and b_pct >= 0:  #
@@ -39,8 +41,8 @@ def wheel_pos(a,b,c):
         pos = 0.333 + 0.333 * (c_pct / (b_pct + c_pct))
     elif c_pct >= 0 and a_pct >= 0:  #
         pos = 0.666 + 0.333 * (a_pct / (c_pct + a_pct))
-    # special cases when finger is just on a single pad
-    # these shouldn't be needed and actually create "deadzones"
+    # special cases when finger is just on a single pad.
+    # these shouldn't be needed and create "deadzones" at these points
     # so surely there's a better solution
     elif a_pct > 0 and b_pct <= 0 and c_pct <= 0:
         pos = 0
@@ -48,7 +50,8 @@ def wheel_pos(a,b,c):
         pos = 0.333
     elif a_pct <= 0 and b_pct <= 0 and c_pct > 0:
         pos = 0.666
-    return (pos + offset)%1 if pos is not None else None
+    # wrap pos around the 0-1 circle if offset puts it outside that range
+    return (pos + offset) % 1 if pos is not None else None
 
 dim_by = 20
 
