@@ -29,7 +29,7 @@ def wheel_pos(a,b,c):
     a_pct= (a.raw_value - a.threshold) / a.threshold
     b_pct = (b.raw_value - b.threshold) / b.threshold
     c_pct = (c.raw_value - c.threshold) / c.threshold
-    print( "%2.1f  %2.1f  %2.1f" % (a_pct, b_pct, c_pct))
+    # print( "%2.1f  %2.1f  %2.1f" % (a_pct, b_pct, c_pct))
     offset = -0.333/2
     pos = None
     # cases when finger is touching two pads
@@ -39,7 +39,9 @@ def wheel_pos(a,b,c):
         pos = 0.333 + 0.333 * (c_pct / (b_pct + c_pct))
     elif c_pct >= 0 and a_pct >= 0:  #
         pos = 0.666 + 0.333 * (a_pct / (c_pct + a_pct))
-    # special cases when finger is just on a single pad (these shouldn't be needed)
+    # special cases when finger is just on a single pad
+    # these shouldn't be needed and actually create "deadzones"
+    # so surely there's a better solution
     elif a_pct > 0 and b_pct <= 0 and c_pct <= 0:
         pos = 0
     elif a_pct <= 0 and b_pct > 0 and c_pct <= 0:
@@ -51,12 +53,14 @@ def wheel_pos(a,b,c):
 dim_by = 20
 
 while True:
-    leds[:] = [[max(i-dim_by,0) for i in l] for l in leds]
+    leds[:] = [[max(i-dim_by,0) for i in l] for l in leds]  # fade leds
 
     pos = wheel_pos(*touchins)
-    print("pos:", pos)
     if pos is not None:
+        print("pos:%.2f" % pos)
         n = int(pos * num_leds)
         leds[n] = 0xff00ff
+    else:
+        print("no touch")
 
     time.sleep(0.01)
