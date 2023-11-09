@@ -41,16 +41,14 @@ class TouchWheel():
             pos = 0.333 + 0.333 * (c_pct / (b_pct + c_pct))
         elif c_pct >= 0 and a_pct >= 0:  #
             pos = 0.666 + 0.333 * (a_pct / (c_pct + a_pct))
-            # special cases when finger is just on a single pad.
-            # these shouldn't be needed and create "deadzones" at these points
-            # so surely there's a better solution
+        # special cases when finger is just on a single pad.
         elif a_pct > 0 and b_pct <= 0 and c_pct <= 0:
             pos = 0
         elif a_pct <= 0 and b_pct > 0 and c_pct <= 0:
             pos = 0.333
         elif a_pct <= 0 and b_pct <= 0 and c_pct > 0:
             pos = 0.666
-            # wrap pos around the 0-1 circle if offset puts it outside that range
+        # wrap pos around the 0-1 circle if offset puts it outside that range
         return (pos + self.offset) % 1 if pos is not None else None
 
 
