@@ -55,3 +55,9 @@ are relatively big and not very heat sensitive.
 https://github.com/todbot/touchwheels/assets/274093/1387c29d-a2a7-4693-b811-6f17a3df0539
 
 
+
+### Useful links:
+
+- [AN2934 - Capacitive Touch Sensor Design Guide](https://ww1.microchip.com/downloads/en/Appnotes/Capacitive-Touch-Sensor-Design-Guide-DS00002934-B.pdf)
+- [QTAN007 - Buttons, Sliders and Wheels - Sensor Design Guide (pdf)](https://www.mouser.com/pdfDocs/QTouch_QTAN0079.pdf)
+- [AT02259: QTouch Schematic and Layout Checklist (pdf)](http://ww1.microchip.com/downloads/en/appnotes/atmel-42094-qtouch-schematic-and-layout-checklist_applicationnote_at02259.pdf)
