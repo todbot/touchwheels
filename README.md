@@ -3,8 +3,8 @@
 Some capacitive sense rotary touchwheels.  
 
 These work by using only three capactive touch pads in a specific interleaved 
-geometry and measuring the ratio analog capacitive touch between the pads to 
-compute a distance along the slider. 
+geometry and measuring the relative ratio of analog capacitive touch values 
+between the pads to compute a distance along the slider. 
 
 
 ### Touchwheels made so far: 
