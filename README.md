@@ -16,6 +16,7 @@ compute a distance along the slider.
 * picoslidertoy
 
   Available at the [picoslidertoy repo](https://github.com/todbot/picoslidertoy)
+  
   <a href="https://github.com/todbot/picoslidertoy"><img width=500 src="https://raw.githubusercontent.com/todbot/picoslidertoy/main/docs/picoslidertoy_photo1.jpg"></a>
 
 ### Demos:
