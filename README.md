@@ -12,6 +12,9 @@ between the pads to compute a distance along the slider.
 * touchwheel0 - [available on Tindie as a kit!](https://www.tindie.com/products/todbot/touchwheel0-capacitive-touch-wheel/)
 
   <img width=500 src="./docs/touchwheel0_photo1.jpg">
+  
+  Similar to an iPod's wheel, `touchwheel0` is a 30 mm (0.6") diameter 
+  [rotary capacitive touch slider](https://onlinedocs.microchip.com/pr/GUID-A8A0085D-58D1-4E41-A07D-B93BFDE11AFE-en-US-4/index.html?GUID-FB5E9311-C731-4326-82D2-CD5F0ED8E378) that can be used with most any microcontroller. It uses three digital GPIO pins and requires no extra components. The included examples in CircuitPython and Arduino show how to turn the raw capacitive touch readings of the three pins into a linear 0-360º angle measurement.
 
 * picoslidertoy - Available at the [picoslidertoy repo](https://github.com/todbot/picoslidertoy)
   
@@ -19,24 +22,31 @@ between the pads to compute a distance along the slider.
 
 ### Demos:
 
+There are several examples on how to use the touchwheel:
+
 - [demo0](./circuitpython/demo0/code.py) -
     CircuitPython example showing basic concept on touchwheel0
   
 - [touchwheel_badgedemo](./circuitpython/touchwheel_badgedemo/code.py) - 
     CircuitPython example for the Hackaday SuperCon 2023 badge (where touchwheel0 PCBs were given away)
     
-- [dual_demo](./circuitpython/dual_demo/code.py) - 
+- [demo_dual](./circuitpython/demo_dual/code.py) - 
     CircuitPython example show two touchwheel0s in use
 
 - more demos coming!
 
 ### What's in Tindie touchwheel0 kit: 
 
-One way to play with these touchwheels is to [get the Tindie kit](https://www.tindie.com/products/todbot/touchwheel0-capacitive-touch-wheel/), which comes with:
+The [touchwheel0 kit](https://www.tindie.com/products/todbot/touchwheel0-capacitive-touch-wheel/)
+on Tindie comes with:
 
 - touchwheel0 black PCB
 - 4 x 1M 0805 SMD resistors (only three needed, one is a spare)
 - 1 x 4-pin pin header 
+
+It makes a pretty good "first SMD soldering" exercise as the 0805 resistors 
+are relatively big and not very heat sensitive. 
+
 
 ### Demo videos:
 
