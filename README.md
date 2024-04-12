@@ -50,9 +50,15 @@ are relatively big and not very heat sensitive.
 
 ### Demo videos:
 
+- demo dual:
+  [(click to view on youtube)](https://www.youtube.com/watch?v=Db7S75eE-G8)
+
+  [<img src="https://i.ytimg.com/vi/Db7S75eE-G8/maxresdefault.jpg" width="75%">](https://www.youtube.com/watch?v=Db7S75eE-G8 "touchwheel0 dual demo")
+
+
 - demo0: 
 
-https://github.com/todbot/touchwheels/assets/274093/1387c29d-a2a7-4693-b811-6f17a3df0539
+  https://github.com/todbot/touchwheels/assets/274093/fc2b794f-5dff-42b4-8942-f141de19e4ab
 
 
 
