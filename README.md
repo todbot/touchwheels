@@ -38,4 +38,10 @@ One way to play with these touchwheels is to [get the Tindie kit](https://www.ti
 - 4 x 1M 0805 SMD resistors (only three needed, one is a spare)
 - 1 x 4-pin pin header 
 
+### Demo videos:
+
+- demo0: 
+
+https://github.com/todbot/touchwheels/assets/274093/1387c29d-a2a7-4693-b811-6f17a3df0539
+
 
