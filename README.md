@@ -9,13 +9,11 @@ compute a distance along the slider.
 
 ### Touchwheels made so far: 
 
-* touchwheel0
+* touchwheel0 - [available on Tindie as a kit!]((https://www.tindie.com/products/todbot/touchwheel0-capacitive-touch-wheel/))
 
   <img width=500 src="./docs/touchwheel0_photo1.jpg">
 
-* picoslidertoy
-
-  Available at the [picoslidertoy repo](https://github.com/todbot/picoslidertoy)
+* picoslidertoy - Available at the [picoslidertoy repo](https://github.com/todbot/picoslidertoy)
   
   <a href="https://github.com/todbot/picoslidertoy"><img width=500 src="https://raw.githubusercontent.com/todbot/picoslidertoy/main/docs/picoslidertoy_photo1.jpg"></a>
 
