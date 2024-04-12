@@ -9,7 +9,7 @@ compute a distance along the slider.
 
 ### Touchwheels made so far: 
 
-* touchwheel0 - [available on Tindie as a kit!]((https://www.tindie.com/products/todbot/touchwheel0-capacitive-touch-wheel/))
+* touchwheel0 - [available on Tindie as a kit!](https://www.tindie.com/products/todbot/touchwheel0-capacitive-touch-wheel/)
 
   <img width=500 src="./docs/touchwheel0_photo1.jpg">
 
