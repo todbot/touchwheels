@@ -70,4 +70,4 @@ are relatively big and not very heat sensitive.
 - [QTAN007 - Buttons, Sliders and Wheels - Sensor Design Guide (pdf)](https://www.mouser.com/pdfDocs/QTouch_QTAN0079.pdf)
 - [AT02259: QTouch Schematic and Layout Checklist (pdf)](http://ww1.microchip.com/downloads/en/appnotes/atmel-42094-qtouch-schematic-and-layout-checklist_applicationnote_at02259.pdf)
 - [slider generator](https://cooltech.zone/tangara/labs/touchwheel-electrode-tool/)
-- [Automating Capacitive Touch Sensor PCB layouts with OpenSCAD Ti AppNote SLAA891B](https://www.ti.com/lit/an/slaa891b/slaa891b.pdf?ts=1725369981627)
+- [SLAA891B: Automating Capacitive Touch Sensor PCB layouts with OpenSCAD Ti AppNote (pdf)](https://www.ti.com/lit/an/slaa891b/slaa891b.pdf?ts=1725369981627)
