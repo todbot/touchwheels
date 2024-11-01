@@ -7,7 +7,9 @@ geometry and measuring the relative ratio of analog capacitive touch values
 between the pads to compute a distance along the slider. 
 
 
-### Touchwheels made so far: 
+### Touchwheels made so far:
+
+* TouchWheelSAO -- [Touchwheel SAO as part of  Hackaday Supercon 2024 badge](https://github.com/todbot/TouchwheelSAO)
 
 * touchwheel0 - [available on Tindie as a kit!](https://www.tindie.com/products/todbot/touchwheel0-capacitive-touch-wheel/)
 
@@ -67,3 +69,5 @@ are relatively big and not very heat sensitive.
 - [AN2934 - Capacitive Touch Sensor Design Guide (pdf)](https://ww1.microchip.com/downloads/en/Appnotes/Capacitive-Touch-Sensor-Design-Guide-DS00002934-B.pdf)
 - [QTAN007 - Buttons, Sliders and Wheels - Sensor Design Guide (pdf)](https://www.mouser.com/pdfDocs/QTouch_QTAN0079.pdf)
 - [AT02259: QTouch Schematic and Layout Checklist (pdf)](http://ww1.microchip.com/downloads/en/appnotes/atmel-42094-qtouch-schematic-and-layout-checklist_applicationnote_at02259.pdf)
+- [slider generator](https://cooltech.zone/tangara/labs/touchwheel-electrode-tool/)
+- [Automating Capacitive Touch Sensor PCB layouts with OpenSCAD Ti AppNote SLAA891B](https://www.ti.com/lit/an/slaa891b/slaa891b.pdf?ts=1725369981627)
